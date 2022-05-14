@@ -9,18 +9,19 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "knex": "<0.20.0",
-    "sqlite3": "^5.0.6",
     "strapi": "3.2.5",
     "strapi-admin": "3.2.5",
-    "strapi-connector-bookshelf": "3.2.5",
-    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-utils": "3.2.5",
     "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
     "strapi-plugin-email": "3.2.5",
     "strapi-plugin-upload": "3.2.5",
-    "strapi-plugin-users-permissions": "3.2.5",
-    "strapi-utils": "3.2.5"
+    "strapi-connector-bookshelf": "3.2.5",
+    "knex": "<0.20.0",
+    "sqlite3": "latest"
   },
   "author": "A Strapi developer",
   "strapi": {
@@ -36,9 +37,9 @@
     "type": "git",
     "url": "git+https://github.com/NoroffFEU/strapi-sp2.git"
   },
+  "keywords": [],
   "bugs": {
     "url": "https://github.com/NoroffFEU/strapi-sp2/issues"
   },
-  "homepage": "https://github.com/NoroffFEU/strapi-sp2#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/NoroffFEU/strapi-sp2#readme"
 }
