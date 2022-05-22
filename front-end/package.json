@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/cart.html src/details.html src/allproducts.html src/404.html"
+    "dev": "parcel src/pages/index.html src/pages/productList.html src/pages/productDetails.html src/pages/cart.html src/pages/admin.html src/pages/adminPanel.html"
   },
   "keywords": [],
   "author": "",
